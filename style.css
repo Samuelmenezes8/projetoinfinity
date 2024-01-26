@@ -1,3 +1,55 @@
+@font-face {
+    font-family: 'CoolKidsMedium';
+    src: url('coolkids-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'SchenebelSans';
+    src: url('Schnebel\ Sans\ Pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header {
+    display: flex;
+}
+
+#name {
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'CoolKidsMedium';
+    color: rgb(40, 50, 62);
+}
+
+#login {
+    margin-right: 0;
+    font-family: 'SchenebelSans';
+    color: rgb(40, 50, 62);
+    background-color:  rgb(255, 255, 255);
+    order: 1;
+    border-radius: 10px;
+    border: 2px solid rgb(40, 50, 62);
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#start-free-trial {
+    margin-right: 0;
+    font-family: 'SchenebelSans';
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 50, 62);
+    order: 2;
+    border-radius: 10px;
+    border: 2px solid rgb(40, 50, 62);
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+
 #footer {
     position: fixed;
     bottom: 0;
