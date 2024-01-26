@@ -12,6 +12,10 @@
     font-style: normal;
 }
 
+body {
+    font-family: 'SchenebelSans', sans-serif;
+}
+
 #header {
     display: flex;
 }
@@ -48,6 +52,41 @@
     width: 150px;
     height: 40px;
     margin-top: 20px;
+}
+
+#middle {
+    margin-top: 60px;
+    justify-content: center;
+}
+
+#p1, #p2 {
+    text-align: center;
+    justify-content: center;
+}
+
+#plan-options {
+    margin-top: 60px;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#monthly {
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 50, 62);
+    border-radius: 10px;
+    border: 2px solid rgb(40, 50, 62);
+    width: 150px;
+    height: 40px;
+}
+
+#annual {
+    color: rgb(40, 50, 62);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(40, 50, 62);
+    width: 150px;
+    height: 40px;
 }
 
 #footer {
